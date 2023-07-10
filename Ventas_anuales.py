@@ -15,10 +15,10 @@ server = app.server
 #https://github.com/yuandrek/Documentos/blob/main/Ventas.xlsx
 #https://github.com/yuandrek/Documentos/raw/main/Ventas.xlsx
 
-dataSet = "https://docs.google.com/spreadsheets/d/1jOJcG3mz9YFapcEaqqPYbJ8eNMPasA-K/edit?usp=sharing&ouid=102332349147483148036&rtpof=true&sd=true"
+#dataSet = "https://docs.google.com/spreadsheets/d/1jOJcG3mz9YFapcEaqqPYbJ8eNMPasA-K/edit?usp=sharing&ouid=102332349147483148036&rtpof=true&sd=true"
 
-df_ventas = pd.read_excel(dataSet, sheet_name="Detalle")
-df_ventasAcum = pd.read_excel(dataSet, sheet_name="Acumulado")
+df_ventas = pd.read_excel('Ventas.xlsx', sheet_name="Detalle")
+df_ventasAcum = pd.read_excel('Ventas.xlsx', sheet_name="Acumulado")
 
 mapbox_token = "pk.eyJ1IjoiaXZhbmxvc2FyIiwiYSI6ImNrZTJpdWN0NDA5cXUyem1oOGx3NGh1bGsifQ.wuhB2vmk4QGrciFWYygqaA"
 
