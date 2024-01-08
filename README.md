@@ -2,4 +2,6 @@
 # DASHBOARD
 
 * Diseño de Dashboard sobre el análisis de datos de ventas anuales de diferentes paises
-* Lenguaje implementado Python y librerias Dash, Plotly
+* Lenguaje implementado Python y librerías Dash, Plotly, Pandas
+* Ingreso visualización de dashboard https://analizando.000webhostapp.com/dashboard-de-ventas/
+* usersAuth = [['Viviana', '7005'], ['Richard', '1024']]
